@@ -1,0 +1,220 @@
+ @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Lato Light"), local("Lato-Light"), url(../fonts/Lato-Light.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Lato Regular"), local("Lato-Regular"), url(../fonts/Lato-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/Lato-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local("Lato Black"), local("Lato-Black"), url(../fonts/Lato-Black.ttf) format("truetype");
+  }
+
+header {
+  height: 95px;
+  border-bottom: 6px solid #323746;
+  background-color: #2d303a;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1020px;
+  height: 100%;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  margin: 0 0 1px 40px;
+  font-size: 25px;
+  font-family: "Lato";
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  color: white;
+}
+
+span {
+  color: #f06c64;
+}
+
+.header-menu {
+  width: 372px;
+  margin: 10px 41px 0 0;
+}
+
+.header-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 700;
+  color: white;
+}
+
+li.content :before {
+  margin-right: 12px;
+  content: '\00B7';
+  font: 2em sans-serif;
+  color: #44495b;
+}
+
+.header-menu li a:hover {
+  color: #f06c64;
+}
+
+.swipe {
+  height: 600px;
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
+  display: block;
+  margin: auto;
+  align-content: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+section {
+  height: 500px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.wrapper-serv {
+  justify-content: space-between;
+  max-width: 1020px;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-text {
+  padding-top: 62px;
+  padding-left: 39px;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 30px;
+  color: #666d89;
+  letter-spacing: -0.26px;
+}
+
+.phone-left {
+  margin-left: 50px;
+  margin-bottom: 3px;
+}
+
+.phone-right {
+  margin-bottom: 125px;
+  margin-left: 69px;
+}
+
+.left-btn {
+  margin-left: 41px;
+  margin-bottom: 231px;
+}
+
+.right-btn {
+  margin-left: 51px;
+  margin-bottom: 231px;
+}
+
+.left-btn:hover {
+  background: url(../images/leftBtnH.png);
+  cursor: pointer;
+}
+
+.right-btn:hover {
+  background: url(../images/rightBtnH.png);
+  cursor: pointer;
+}
+
+section > div > .second-text {
+  margin-right: 41px;
+  margin-top: 21px;
+  margin-left: 39px;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 1.7em;
+  text-align: justify;
+  color: #767e9e;
+}
+
+section div .grid-context {
+  margin-top: 10px;
+  margin-right: 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  text-align: justify;
+  color: #767e9e;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 79px 240px 79px 240px 81px 239px;
+  grid-template-rows: 123px 90px;
+  margin-top: 45px;
+  padding-left: 40px;
+}
+
+.text-header {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.1px;
+  color: #666d89;
+}
+
+.prev {
+  margin-left: 1px;
+  letter-spacing: -0.1px;
+}
+
+.icon {
+  margin-top: 2px;
+}
+
+.icon.star_heart {
+  margin-left: 1px;
+}
