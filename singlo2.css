@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Lato Light"), local("Lato-Light"), url(assets/fonts/Lato-Light.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Lato Regular"), local("Lato-Regular"), url(assets/fonts/Lato-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Lato Bold"), local("Lato-Bold"), url(assets/fonts/Lato-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local("Lato Black"), local("Lato-Black"), url(assets/fonts/Lato-Black.ttf) format("truetype");
+  }
+*{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.section-portfolio{
+    border-bottom: solid 6px #323746;
+    background-color: #2d303a;
+}
+
+.wrapper{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.portfolio{
+    padding-top: 63px;
+    padding-bottom: 47px;
+    padding-left: 41px;
+    padding-right: 38px;
+}
+
+.portfolio-text{
+    line-height: 30px;
+}
+
+.portfolio-text h2{
+    font-size: 30px;
+    padding-bottom: 21px;
+    font-weight: 900;
+    color: #666d89;
+    letter-spacing: -0.2px;
+}
+
+.portfolio-text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #767e9e;
+    padding-bottom: 11px;
+    }
+
+.button-item{
+    color: #767e9e;
+    border: 1px solid rgb(102, 109, 137);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2d303a;
+    margin-right: 7px;
+    line-height: 18px;
+    font-size: 12px;
+    transition: .27s ease-out;
+    outline: none;
+    font-family: "Lato", sans-serif;
+}
+
+.button-item:nth-child(1){
+    padding-left: 8px;
+}
+
+.button-item:nth-child(3){
+    padding-right: 5px;
+}
+
+.button-item:nth-child(4){
+    padding-right: 4px;
+}
+
+.button-item:hover {
+    background-color: #dedede;
+    color: rgb(102, 109, 137);
+    border-color: #dedede;
+}
+
+.portfolio-works{
+    padding-top:19px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.example-works > img{
+    width: 220px;
+    height: 187px;
+    padding-bottom : 18px;
+}
+
+.section-about-us{
+    border-bottom: solid 6px #ffffff;
+    background-color: #f2f2f2;
+}
+
+.about-us-info{
+    padding-top: 68px;
+    padding-bottom: 65px;
+    padding-left: 41px;
+    padding-right: 40px;
+}
+.about-us-content{
+    width: 940px;
+    text-align: left;
+}
+.about-us-content > h2{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+    padding-bottom: 27px;
+    font-family: "Lato", sans-serif;
+}
+.about-us-content > p::first-line{
+    text-align : justify;
+}
+.about-us-content > p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    padding-bottom: 45px;
+    font-family: "Lato", sans-serif;
+}
+
+.employee{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.employee-content{
+    max-width: 300px;
+}
+
+.foto{
+    
+    max-width: 100%;
+    height: 300px;
+    padding-bottom:10px;
+}
+
+.employee-content > h2{
+    color: #666d89;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 900;
+    padding-top: 6px;
+    overflow: hidden;
+    height: 18px;
+    padding-bottom: 10px;
+    font-family: "Lato", sans-serif;
+}
+.employee-content > p::first-line{
+    letter-spacing: -0.09px;
+}
+
+.employee-content > p{
+    width: 300px;
+    font-size: 12px;
+    line-height: 21.56px;
+    color: #767e9e;
+    padding-bottom: 23px;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+}
+
+.employee-communication{
+    display:flex;
+}
+
+.social-list{
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #767e9e;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .27s ease-out;
+    fill: #767e9e;
+}
+
+.social-list:hover{
+    background-color: #000000;
+    fill: #ffffff;
+}
