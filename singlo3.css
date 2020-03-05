@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Lato Light"), local("Lato-Light"), url(assets/fonts/Lato-Light.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Lato Regular"), local("Lato-Regular"), url(assets/fonts/Lato-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Lato Bold"), local("Lato-Bold"), url(assets/fonts/Lato-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local("Lato Black"), local("Lato-Black"), url(assets/fonts/Lato-Black.ttf) format("truetype");
+  }
+*{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+.section-form{
+    border-bottom: solid 6px #ea676b;
+    background-color: #f06c64;
+}
+
+.wrapper{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.wrapper-form{
+    padding-top: 62px;
+    padding-bottom: 51px;
+    padding-left: 41px;
+    padding-right: 40px;
+}
+
+.form-information{
+    color: #f0d8d9;
+    line-height: 30px;
+}
+
+.form-information > h2{
+    word-spacing: -1px;
+    font-size: 30px;
+    padding-bottom: 21px;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+}
+
+.form-block{
+    padding-top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input , textarea{
+    width: 619px;
+}
+
+.input-item{
+    margin-bottom: 16px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 4px;
+    padding-left: 14px;
+    height: 38px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #f0d8d9;
+    box-sizing: border-box;
+    transition: background-color .27s ease-out, box-shadow .27s ease-out;
+    outline: none;
+    resize: none;
+}
+
+.input-item::placeholder{
+    color: #f0d8d9;
+}
+
+.textarea-item{
+    height: 202px;
+    padding-top: 12px;
+}
+
+.form-information > p{
+    max-width: 939px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.form-contact{
+    max-width: 300px;
+    color: #f0d8d9;
+}
+
+.form-contact > h2{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 18px;
+    margin-bottom: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.form-contact > p{
+    word-spacing: -1px;
+    text-align: justify;
+    font-size: 0.75rem;
+    line-height: 1.35rem;
+    margin-bottom: 29px;
+    font-family: "Lato", sans-serif;
+}
+
+.last-line{
+    position: relative;
+    text-align: justify;
+    word-spacing: 0.2px;
+    top: 2px;
+}
+
+.contact {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 9.4px;
+    padding-left: 23px;
+    position: relative;
+    color: #f0d8d9;
+    text-decoration: none;
+}
+
+.contact::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+.contact-geo::before {
+    background-image: url(assets/image/location.png);
+}
+
+.contact-tel::before {
+    background-image: url(assets/image/phone.png);
+}
+
+.contact-mail::before {
+    left: 1px;
+    top: 3px;
+    background-image: url(assets/image/mail.png);
+}
+
+.section-footer{
+    background-color: #2d303a;
+}
+
+.wrapper-footer{
+    padding-left: 43px;
+    padding-top: 22px;
+    padding-right: 32px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    align-self: center;
+    color: #666d89;
+    letter-spacing: -0.2px;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+}
+
+.footer-icon{
+    display:flex;
+}
+
+.social-list{
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #767e9e;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .27s ease-out;
+    fill: #767e9e;
+}
+
+.social-list:hover{
+    background-color: #000000;
+    fill: #ffffff;
+}
