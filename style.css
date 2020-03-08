@@ -189,6 +189,7 @@ section > div > .second-text {
 section div .grid-context {
   margin-top: 10px;
   margin-right: 20px;
+  margin-left: -1px;
   font-family: "Lato";
   font-weight: 400;
   font-size: 12px;
