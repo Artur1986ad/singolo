@@ -657,7 +657,7 @@ input , textarea{
 }
 
 .input-item::placeholder{
-  color: #f0d8d9;
+  color: #f08586cd;
 }
 
 .textarea-item{
